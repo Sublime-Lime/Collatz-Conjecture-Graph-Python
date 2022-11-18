@@ -18,7 +18,7 @@ while True:
     else:
         y.append(y[-1]*3+1)
         x.append(x[-1]+1)
-plt.plot(x,y,'-x')
+plt.plot(x, y, '-x')
 plt.ylabel('Number Value')
 plt.xlabel('Number of iterations')
 plt.show()
